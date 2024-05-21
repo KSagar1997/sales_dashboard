@@ -1,0 +1,15 @@
+h3 { 
+  margin: 0!important;
+  font-weight: 600!important;
+  font-weight: 500;
+}
+
+.top-nav { 
+  min-height: 56px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: #A6ABC8;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}

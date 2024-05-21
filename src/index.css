@@ -1,0 +1,105 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.head-container {
+  /* background-color: #A6ABC8; */
+  background-color: #f0f0f0;
+  max-width: 100% !important;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.chart {
+  flex: 1 1 calc(33% - 40px);
+  /* max-width: 100%; */
+  min-width: 751px;
+  max-height: 299px;
+  width: 758px;
+  display: flex;
+  justify-content: center;
+}
+
+.chart3 {
+  flex: 1 1 calc(33% - 40px);
+  /* max-width: 100%; */
+  min-width: 751px;
+  max-height: 282px;
+  width: 758px;
+  display: flex;
+  justify-content: center;
+}
+.chart1 {
+  max-width: 50%;
+  display: flex;
+  min-width: 300px;
+}
+
+.date-range-filter {
+  margin-bottom: 20px;
+}
+
+.date-range-filter input {
+  margin: 0 10px;
+}
+
+.date-range-filter button {
+  padding: 5px 10px;
+}
+
+.filterPanel input {
+  outline: none;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #a1a1a1;
+  background: transparent;
+  color: #000000a6;
+  font-weight: 600;
+}
+
+.filterPanel button {
+  border: none;
+  background-color: #707fdd73;
+  color: #5A6ACF;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 13px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 4px;
+}
+
+.filterPanel {
+  border-radius: 4px;
+  /* border: 1px solid #C8CBD9; */
+  padding: 7px;
+}
+
+.card {
+  max-height: 50%;
+}
+
+.main-section {
+  height: calc(100% - 58px);
+}
+
+.card-section{ 
+  background-color: #a6abc842;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 2px 3px 8px; */
+  box-shadow: rgba(0 0 0 /50%) 2px 3px 8px;
+  border-radius: 12px;
+
+}
